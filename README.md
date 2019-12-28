@@ -8,7 +8,7 @@ Example Usage
 ---------
 
 ```php
-require('ktp.class.php');
+require('email.class.php');
 $email = 'email@example.com';
 $api = new Email($email);
 echo $api->verify(); // return json output
