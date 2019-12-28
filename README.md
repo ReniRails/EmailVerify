@@ -1,4 +1,4 @@
-# PHP Real Email Verification and Validation
+# PHP Email Verification and Validation
 
 ![PHP](https://img.shields.io/badge/php-%3E%3D5.3-8892bf.svg)
 ![CURL](https://img.shields.io/badge/cURL-required-green.svg)
@@ -9,6 +9,7 @@ Example Usage
 
 ```php
 require('email.class.php');
+
 $email = 'email@example.com';
 $api = new Email($email);
 echo $api->verify(); // return json output
